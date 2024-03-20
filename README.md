@@ -8,7 +8,7 @@ This project contains a Scrapy spider for scraping business information from Yel
 - Retrieves the first 5 reviews for each business, including the review text, date, and rating.
 - Allows customization of the scraping process through command-line arguments, including location, category name, and maximum number of items to scrape.
 
-**Note:** The spider doesn't extract the business website or reviewer's personal name due to limitations in the Yelp API. Due to the limit of 500 API calls per day, not all results may be available in `results.jsonl`.
+**Note:** The spider doesn't extract the business website or reviewer's location due to limitations in the Yelp API. Due to the limit of 500 API calls per day, not all results may be available in `results.jsonl`.
 
 ## Prerequisites
 
